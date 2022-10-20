@@ -5,8 +5,8 @@ import Logo from "./Logo";
 import NavItem from "./NavItem";
 
 const MENU_LIST = [
-  { text: "Features", href: "#feature" },
-  { text: "Pricing", href: "#Pricing" },
+  { text: "Features", href: "#features" },
+  { text: "Pricing", href: "#pricing" },
   { text: "FAQ", href: "#FAQ" },
   { text: "Community", href: "#" },
 ];
