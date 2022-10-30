@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 const NavItem = ({ text, href, active }) => {
   return (
-    <Link href={href}>
+    <Link href={href} passHref legacyBehavior>
       <div className="theme">
         <a className={`nav__item nav__link ${active ? "active" : ""}`}>
           {text}
