@@ -556,6 +556,33 @@ header {
   line-height: 91.5%;
 }
 
+#meet-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.item {
+  margin: 0 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item h4 {
+  margin-top: 10px;
+}
+
 #cta {
   margin: auto;
 }
@@ -651,6 +678,10 @@ footer div {
   }
   .info-text p {
     font-size: 18.1524px;
+  }
+
+  .team {
+    width: 80%;
   }
 }
 
