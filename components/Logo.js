@@ -31,9 +31,9 @@ const Logo = () => {
           width="142.588"
           height="84.9062"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -66,9 +66,9 @@ const Logo = () => {
           width="133.562"
           height="27.25"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -102,8 +102,8 @@ const Logo = () => {
           y2="50.5051"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3C91E6" />
-          <stop offset="1" stop-color="#113DAF" />
+          <stop stopColor="#3C91E6" />
+          <stop offset="1" stopColor="#113DAF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_640_7614"
@@ -113,8 +113,8 @@ const Logo = () => {
           y2="50.5051"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3C91E6" />
-          <stop offset="1" stop-color="#113DAF" />
+          <stop stopColor="#3C91E6" />
+          <stop offset="1" stopColor="#113DAF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_640_7614"
@@ -124,8 +124,8 @@ const Logo = () => {
           y2="115.595"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3C91E6" />
-          <stop offset="1" stop-color="#113DAF" />
+          <stop stopColor="#3C91E6" />
+          <stop offset="1" stopColor="#113DAF" />
         </linearGradient>
       </defs>
     </svg>
