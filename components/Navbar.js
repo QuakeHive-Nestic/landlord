@@ -6,7 +6,7 @@ import NavItem from "./NavItem";
 
 const MENU_LIST = [
   { text: "Features", href: "#features" },
-  { text: "Pricing", href: "#pricing" },
+  { text: "Pricing", href: "#info" },
   { text: "FAQ", href: "#FAQ" },
   { text: "Community", href: "#" },
 ];
@@ -18,7 +18,7 @@ const Navbar = () => {
     <div>
       <nav>
         <div className={`container`}>
-          <Link href={"/"}>
+          <Link href={"/"} passHref legacyBehavior>
             <Logo />
           </Link>
           <div
