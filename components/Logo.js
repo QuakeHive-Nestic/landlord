@@ -136,4 +136,6 @@ const Logo = React.forwardRef(({ onClick, href }, ref) => {
   );
 });
 
+Logo.displayName = "Logo";
+
 export default Logo;
