@@ -6,8 +6,8 @@ import NavItem from "./Navitem";
 
 const MENU_LIST = [
   { text: "Features", href: "#features" },
-  { text: "Pricing", href: "#info" },
-  { text: "FAQ", href: "#FAQ" },
+  { text: "About", href: "#info" },
+  { text: "Team", href: "#meet-team" },
   { text: "Community", href: "#" },
 ];
 const Navbar = () => {
