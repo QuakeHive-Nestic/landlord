@@ -299,7 +299,7 @@ nav {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--text);
   background: linear-gradient(
     179.89deg,
@@ -400,6 +400,7 @@ header {
 
 .meet {
   /* margin-top: clamp(1rem, -0.27272731rem + 5.818182vw, 3rem); */
+  margin-top: 10px;
   grid-area: 1/1/2/2;
   max-width: 550px;
   display: grid;
@@ -407,10 +408,10 @@ header {
 }
 
 .meet h2 {
-  max-width: 90vw;
+  max-width: 100%;
 }
 .meet p {
-  max-width: 90%;
+  max-width: 100%;
   font-family: "Poppins" sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -583,6 +584,28 @@ header {
   margin-top: 10px;
 }
 
+.possibilities {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.possibilities p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.possibilities a {
+  margin-top: 10px;
+}
+
+p {
+  font-family: "Poppins" sans-serif;
+  font-style: normal;
+}
+
 #cta {
   margin: auto;
 }
@@ -669,6 +692,10 @@ footer div {
     width: 100%;
   }
 
+  .meet p {
+    width: 90%;
+  }
+
   .method {
     width: 80%;
   }
@@ -682,6 +709,19 @@ footer div {
 
   .team {
     width: 80%;
+  }
+
+  .possibilities {
+    width: 60%;
+  }
+
+  .possibilities p {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .possibilities a {
+    margin-top: 20px;
   }
 }
 
@@ -731,5 +771,9 @@ footer div {
   }
   .connect-form {
     padding: 1.5rem;
+  }
+
+  .card {
+    padding: 0;
   }
 }
