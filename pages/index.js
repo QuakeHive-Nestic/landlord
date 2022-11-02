@@ -268,7 +268,7 @@ export default function Home() {
                 </svg>
               }
               h4="Secure Investments"
-              p="Our Blockchain Technology ensure all ownership of listed properties are verifiable and legitimate. "
+              p="Extremely low risk of real estate scam as you carry out Real Estate Investment Trusts (REITs)"
             />
             <Features
               svg={
