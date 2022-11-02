@@ -226,11 +226,11 @@ nav {
   align-items: center;
 }
 
-.nav-logo {
+/* .nav-logo {
   width: clamp(160px, 69.2307695px + 23.076923vw, 300px);
   background-color: var(--bkg1);
   position: relative;
-}
+} */
 
 .theme {
   display: flex;
@@ -400,7 +400,7 @@ header {
 
 .meet {
   /* margin-top: clamp(1rem, -0.27272731rem + 5.818182vw, 3rem); */
-  margin-top: 10px;
+  /* margin-top: 10px; */
   grid-area: 1/1/2/2;
   max-width: 550px;
   display: grid;
@@ -520,6 +520,10 @@ header {
   height: clamp(4rem, 2.72727269rem + 5.818182vw, 6rem);
 } */
 
+#info {
+  margin-top: -500px;
+}
+
 .info-container {
   display: flex;
   flex-wrap: wrap;
@@ -530,7 +534,6 @@ header {
     #09ffff 8.8%,
     rgba(9, 255, 255, 0) 83.75%
   );
-  margin-top: -500px;
 }
 
 .info-text {
@@ -544,7 +547,7 @@ header {
   font-family: "Syne" sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 13.2563px;
+  font-size: 15.2563px;
   line-height: 127.5%;
 }
 
@@ -555,6 +558,7 @@ header {
   font-weight: 500;
   font-size: 44.7907px;
   line-height: 91.5%;
+  margin-bottom: 10px;
 }
 
 #meet-team {
@@ -598,7 +602,7 @@ header {
 }
 
 .possibilities a {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 p {
@@ -712,12 +716,12 @@ footer div {
   }
 
   .possibilities {
-    width: 60%;
+    width: 70%;
   }
 
   .possibilities p {
     margin-top: 20px;
-    width: 80%;
+    width: 70%;
   }
 
   .possibilities a {
@@ -766,6 +770,10 @@ footer div {
 }
 
 @media only screen and (max-width: 420px) {
+  .nav-logo {
+    margin-left: -35px;
+  }
+
   .blob-container {
     display: none;
   }
@@ -775,5 +783,21 @@ footer div {
 
   .card {
     padding: 0;
+  }
+
+  .meet {
+    margin-top: 20px;
+  }
+
+  .meet h2 {
+    font-size: 28px;
+  }
+
+  .meet p {
+    font-size: 20px;
+  }
+
+  .info-text h3 {
+    font-size: 32px;
   }
 }
