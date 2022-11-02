@@ -2,7 +2,7 @@ import React from "react";
 
 const Logo = React.forwardRef(({ onClick, href }, ref) => {
   return (
-    <a href={href} onClick={onClick} ref={ref}>
+    <a href={href} onClick={onClick} ref={ref} className="nav-logo">
       <svg
         width="233"
         height="80"
