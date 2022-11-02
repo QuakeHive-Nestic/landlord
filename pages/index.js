@@ -480,6 +480,19 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section id="possibilities">
+          <div className="possibilities">
+            <h3>Are You Ready To Explore The Endless Possibilities?</h3>
+            <p>
+              Our Secure Network and fast growing marketplace combined with your
+              personal needs, allows us create an investment plan specifically
+              tailored to your needs
+            </p>
+            <a href="#method" className="btn accent1-bg bkg1-link">
+              Join Community
+            </a>
+          </div>
+        </section>
         <section id="cta">
           <Image
             src="/buttom.png"
@@ -488,7 +501,7 @@ export default function Home() {
             height={661.61}
           />
         </section>
-        <section className="connect bkg2-bg" id="connect">
+        {/* <section className="connect bkg2-bg" id="connect">
           <div className="connect-form bkg2 accent1-bg">
             <h3>Let’s Connect!</h3>
             <p>
@@ -496,7 +509,7 @@ export default function Home() {
               I’ll reach out.
             </p>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <footer>
