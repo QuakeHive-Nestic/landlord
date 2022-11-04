@@ -46,8 +46,8 @@ export default function Home() {
         <header>
           <div className="meet">
             <h2>
-              Enjoy the Security of investing in real estate built with
-              Blockchain Technology
+              Enjoy the Security of investing in real estate using Blockchain
+              Technology
             </h2>
             <p>
               Whether you are a buyer, seller, or investor in real estate in
@@ -501,28 +501,54 @@ export default function Home() {
             height={661.61}
           />
         </section>
-        {/* <section className="connect bkg2-bg" id="connect">
-          <div className="connect-form bkg2 accent1-bg">
-            <h3>Let’s Connect!</h3>
-            <p>
-              Interested in learning? Let’s connect! Send me your email, and
-              I’ll reach out.
-            </p>
-          </div>
-        </section> */}
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span>
-            <Image src="/icon.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+      <footer id="footer">
+        <div className="footer">
+          <div className="subscribe">
+            <h4>Subscribe to our quarterly Newsletter</h4>
+            <input
+              className="input"
+              type={"text"}
+              placeholder="enter your email"
+            />
+            <a className="btn accent1-bg bkg1-link" type="button">
+              Submit
+            </a>
+          </div>
+          <div className="wrapper">
+            <Image
+              src="/landlord logo 3.svg"
+              alt="logo"
+              width={334.26}
+              height={334.26}
+            />
+            <div className="footer-link">
+              <h4>Landlord</h4>
+              <a>Home</a>
+              <a>About</a>
+              <a>Blog</a>
+              <a>Contact</a>
+            </div>
+            <div className="footer-link">
+              <h4>Resources</h4>
+              <a>Contact</a>
+              <a>Partners</a>
+              <a>Help desk</a>
+              <a>newsletter</a>
+            </div>
+            <div className="footer-link">
+              <h4>Events</h4>
+            </div>
+            <div className="footer-link">
+              <h4>Follow</h4>
+            </div>
+          </div>
+          <div>
+            <a>Terms & Conditions</a>
+            <a>Privacy Policy</a>
+          </div>
+        </div>
       </footer>
     </div>
   );
