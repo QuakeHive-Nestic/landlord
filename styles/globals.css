@@ -679,6 +679,7 @@ footer div {
 .wrapper {
   display: flex;
   flex-wrap: wrap-reverse;
+  /* align-items: flex-end; */
 }
 
 .footer-icons {
@@ -793,14 +794,11 @@ footer div {
 
 @media only screen and (max-width: 420px) {
   .nav-logo {
-    margin-left: -35px;
+    margin-left: -45px;
   }
 
-  .blob-container {
-    display: none;
-  }
-  .connect-form {
-    padding: 1.5rem;
+  header {
+    padding: 0 1.5rem;
   }
 
   .card {

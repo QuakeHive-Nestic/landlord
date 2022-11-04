@@ -539,9 +539,44 @@ export default function Home() {
             </div>
             <div className="footer-link">
               <h4>Events</h4>
+              <a>Pending</a>
             </div>
             <div className="footer-link">
               <h4>Follow</h4>
+              <div>
+                <Link href={"#"}>
+                  <Image
+                    src="/telegram.svg"
+                    alt="telegram"
+                    width={22.52}
+                    height={22.54}
+                  />
+                </Link>
+                <Link href={"#"}>
+                  <Image
+                    src="/discord.svg"
+                    alt="discord"
+                    width={22.52}
+                    height={22.54}
+                  />
+                </Link>
+                <Link href={"#"}>
+                  <Image
+                    src="/facebook.svg"
+                    alt="facebook"
+                    width={22.52}
+                    height={22.54}
+                  />
+                </Link>
+                <Link href={"#"}>
+                  <Image
+                    src="/linkedin.svg"
+                    alt="linkedin"
+                    width={22.52}
+                    height={22.54}
+                  />
+                </Link>
+              </div>
             </div>
           </div>
           <div>
