@@ -299,8 +299,14 @@ nav {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Syne", sans-serif;
   color: var(--text);
+}
+
+main {
+  display: grid;
+  gap: clamp(2rem, 1.72727269rem + 5.818182vw, 5rem);
+  overflow: hidden;
   background: linear-gradient(
     179.89deg,
     #090d2a 0.09%,
@@ -308,12 +314,6 @@ body {
     #09344c 93.26%,
     #09fbfb 107.91%
   );
-}
-
-main {
-  display: grid;
-  gap: clamp(2rem, 1.72727269rem + 5.818182vw, 5rem);
-  overflow: hidden;
 }
 
 h1,
@@ -375,10 +375,10 @@ h4,
   transition: all 250ms ease-in-out;
 }
 
-.arrow {
+/* .arrow {
   position: absolute;
   z-index: -1;
-}
+} */
 
 /* section,
 header {
@@ -423,9 +423,6 @@ header {
   margin-left: -200px;
   margin-right: -50px;
   justify-self: end;
-  /* display: grid; */
-  /* grid-template-columns: 4rem 1fr 2rem;
-  width: clamp(250px, 142.3076915px + 30.769231vw, 450px); */
 }
 
 /* .meet-img__teacher {
@@ -614,27 +611,6 @@ p {
   margin: auto;
 }
 
-.connect {
-  padding: 3rem 2rem;
-  margin-top: 3rem;
-}
-
-.connect-form {
-  max-width: 500px;
-  position: relative;
-  border: 12px solid var(--bkg1);
-  border-radius: 10px;
-  padding: 1.5rem 3rem;
-  margin: -6rem auto 0;
-  display: grid;
-  grid-gap: 0.5rem;
-}
-
-.connect-form form {
-  width: 100%;
-  margin-top: 1rem;
-}
-
 [type="email"] {
   padding: 0.5rem;
   border: 3px solid var(--bkg2);
@@ -650,13 +626,59 @@ p {
   cursor: pointer;
 }
 
+#footer {
+  background-color: #02182b;
+}
+
+#footer .footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer .subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.subscribe h4 {
+  text-align: center;
+}
+
+#footer .input {
+  background-color: #d9d9d9;
+  border-radius: 9.3832px;
+  height: 20.04px;
+  padding: 1rem 2rem 1rem 1rem;
+  max-width: 485px;
+}
+
+#footer .btn {
+  background: linear-gradient(131.26deg, #3c91e6 0%, #113daf 100%);
+  border-radius: 9.3832px;
+  height: 20.04px;
+  padding: 1rem 2rem 1rem 2rem;
+  cursor: pointer;
+}
+
 footer div {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  /* grid-template-columns: auto auto auto; */
   grid-gap: 1.5rem;
   align-items: center;
   justify-content: center;
   padding: 1rem;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
 }
 
 .footer-icons {
@@ -784,6 +806,11 @@ footer div {
   .card {
     padding: 0;
   }
+
+  /* header {
+    margin: -3rem auto 0;
+    padding: 0 1.5rem;
+  } */
 
   .meet {
     margin-top: 20px;
