@@ -50,9 +50,9 @@ export default function Home() {
               Technology
             </h2>
             <p>
-              Whether you are a buyer, seller, or investor in real estate in
-              Nigeria, discover the speed, ease and security blockchain
-              technology provides you in a thriving digital marketplace.
+              Our platform makes it easy to tokenize your real estate assets and
+              sell them to investors around the world. Get started today and
+              unlock the full potential of your portfolio.
             </p>
             <a href="#method" className="btn accent1-bg bkg1-link">
               Join Community
@@ -433,14 +433,16 @@ export default function Home() {
             <div className="info-text">
               <h3>Who are We?</h3>
               <p>
-                Landlords is a platform that understands the hassle involved in
-                trying to buy or sell a property especially due to the risk of
-                scammers, or illegal transactions associated to traditional real
-                estate acquisition and investing.<br></br>
-                <br></br> Our platform built with blockchain technologyprovides
-                real estate agencies, property owners, investors, and
-                individuals looking to buy, sell, or invest with security, speed
-                and convinence within a thriving digital ecosystem.
+                Quake Hive is a real estate tokenization platform that makes it
+                easy to tokenize and sell your real estate assets to investors
+                around the world. Our platform is built on the Internet
+                Computer, a decentralized network that provides fast, secure,
+                and reliable transactions.<br></br>
+                <br></br> With Quake Hive, you can easily list your properties
+                for sale, set the terms of the sale, and sell your tokens to
+                investors. The process is fast, simple, and secure, and it
+                allows you to tap into a global pool of investors and unlock the
+                full potential of your portfolio.
               </p>
             </div>
           </div>
